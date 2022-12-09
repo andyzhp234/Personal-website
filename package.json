@@ -5,6 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
+    "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "heroku-postbuild": "cd frontend && npm install && npm run build"
   },
