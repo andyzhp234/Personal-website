@@ -6,11 +6,7 @@ import Resume from "../../assets/icon-linkedin.png";
 export default function LandingNav() {
   return (
     <>
-      <div
-        className="flex flex-wrap py-8"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      >
+      <div className="flex flex-wrap py-8">
         <div
           className="mr-4 cursor-pointer self-center rounded-full bg-black px-6 py-3 text-sm font-semibold text-white duration-100
           ease-in-out hover:translate-y-1 md:text-base lg:px-8 lg:py-4 lg:text-xl"
@@ -32,7 +28,7 @@ export default function LandingNav() {
           My Resume
         </a>
       </div>
-      <div className="flex" data-aos="fade-up" data-aos-duration="1000">
+      <div className="flex">
         <a href="https://github.com/andyzhp234">
           <img
             className="h-12 w-12 cursor-pointer"

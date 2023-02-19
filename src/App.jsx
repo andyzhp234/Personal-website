@@ -5,6 +5,7 @@ import AOS from "aos";
 import Landing from "./components/Landing";
 import Projects from "./components/Projects";
 import Divider from "./components/Divider";
+import Contact from "./components/Contact";
 
 function App() {
   React.useEffect(() => {
@@ -16,6 +17,8 @@ function App() {
       <Landing />
       <Divider />
       <Projects />
+      <Divider />
+      <Contact />
     </div>
   );
 }
