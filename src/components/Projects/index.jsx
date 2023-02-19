@@ -1,5 +1,12 @@
 import React from "react";
+import Project from "./Project";
 
 export default function Projects() {
-  return <div className="h-screen w-full bg-orange-200">asd</div>;
+  return (
+    <div className="w-full">
+      {/* <Project />
+      <Project />
+      <Project /> */}
+    </div>
+  );
 }

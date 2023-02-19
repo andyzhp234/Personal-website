@@ -6,6 +6,7 @@ import Landing from "./components/Landing";
 import Projects from "./components/Projects";
 import Divider from "./components/Divider";
 import Contact from "./components/Contact";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   React.useEffect(() => {
@@ -13,11 +14,13 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-gray-100 px-6 font-Raleway sm:px-10 lg:px-24">
+    <div className="my-0 mx-auto max-w-[1980px] px-6 font-Raleway sm:px-10 lg:px-24">
       <Landing />
       <Divider />
-      <Projects />
+      <AboutMe />
       <Divider />
+      {/* <Projects />
+      <Divider /> */}
       <Contact />
     </div>
   );
