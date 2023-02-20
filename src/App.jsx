@@ -2,11 +2,14 @@ import React from "react";
 import "./css/index.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import Landing from "./components/Landing";
-import Projects from "./components/Projects";
 import Divider from "./components/Divider";
-import Contact from "./components/Contact";
-import AboutMe from "./components/AboutMe";
+import Landing from "./sections/Landing";
+import AboutMe from "./sections/AboutMe";
+import Projects from "./sections/Projects";
+import OtherProjects from "./sections/OtherProjects";
+import Skills from "./sections/Skills";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 function App() {
   React.useEffect(() => {
@@ -14,14 +17,14 @@ function App() {
   }, []);
 
   return (
-    <div className="my-0 mx-auto max-w-[1980px] px-6 font-Raleway sm:px-10 lg:px-24">
+    <div className="my-0 mx-auto max-w-[1980px] font-Raleway">
       <Landing />
-      <Divider />
       <AboutMe />
-      <Divider />
-      {/* <Projects />
-      <Divider /> */}
+      <Projects />
+      <OtherProjects />
+      <Skills />
       <Contact />
+      <Footer />
     </div>
   );
 }

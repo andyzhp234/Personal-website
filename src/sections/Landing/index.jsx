@@ -1,13 +1,13 @@
 import React from "react";
-import AppBar from "../Appbar";
+import Header from "./Header";
 import SelfIntro from "./SelfIntro";
 import LandingNav from "./LandingNav";
 
 export default function Landing() {
   return (
-    <div className="w-full">
-      <AppBar />
-      <div className="py-20 md:py-32 lg:py-40">
+    <div className="px-6 md:px-10 lg:px-20 ">
+      <Header />
+      <div className="py-44 sm:px-10 lg:px-36">
         <SelfIntro />
         <LandingNav />
       </div>
