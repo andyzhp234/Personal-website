@@ -17,13 +17,13 @@ function App() {
 
   return (
     <div className="my-0 mx-auto max-w-[1980px] font-Raleway">
-      <Landing />
+      {/* <Landing />
       <AboutMe />
       <Projects />
       <OtherProjects />
       <Skills />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
