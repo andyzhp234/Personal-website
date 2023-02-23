@@ -4,7 +4,11 @@ import IconTopRightArrow from "../../assets/icon-general/icon-top-right-arrow-bl
 
 export default function OtherProjectItem({ title, githubURL, demoURL }) {
   return (
-    <div className="flex h-20 w-full items-center justify-between border-b border-black text-2xl font-medium">
+    <div
+      className="flex h-20 w-full items-center justify-between border-b border-black text-2xl font-medium"
+      data-aos="fade-up"
+      data-aos-duration="300"
+    >
       <a className="flex cursor-pointer hover:underline" href={demoURL}>
         <h1>{title}</h1>
         <img className="ml-1 h-8 w-8" src={IconTopRightArrow} alt="arrow" />
