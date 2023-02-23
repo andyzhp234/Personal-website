@@ -2,7 +2,6 @@ import React from "react";
 import "./css/index.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import Divider from "./components/Divider";
 import Landing from "./sections/Landing";
 import AboutMe from "./sections/AboutMe";
 import Projects from "./sections/Projects";
