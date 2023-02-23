@@ -1,16 +1,16 @@
 import React from "react";
 import Project from "./Project";
 import Title from "../../components/Title";
-import ImgStableStore from "../../assets/images/img-stable-store.png";
-import ImgQuickChat from "../../assets/images/img-quick-chat.png";
-import ImgTaskPilot from "../../assets/images/img-taskpilot.png";
+// import ImgStableStore from "../../assets/images/img-stable-store.png";
+// import ImgQuickChat from "../../assets/images/img-quick-chat.png";
+// import ImgTaskPilot from "../../assets/images/img-taskpilot.png";
 
 export default function Projects() {
   return (
     <div className="lg:py-22 px-6 pt-10 pb-20 md:px-10 xl:px-52">
       <Title>Projects</Title>
       <div className="flex flex-col justify-center">
-        <Project
+        {/* <Project
           title={"Stable"}
           type={"E-Commerce"}
           description={
@@ -39,7 +39,7 @@ export default function Projects() {
           projectImg={ImgTaskPilot}
           githubURL="https://github.com/andyzhp234/task-management-app"
           demoURL=""
-        />
+        /> */}
       </div>
     </div>
   );
