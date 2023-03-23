@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from "./sections/Header";
+import Landing from "./sections/Landing";
+import About from "./sections/About";
+import Projects from "./sections/Projects";
+import OtherProjects from "./sections/OtherProjects";
+import Skills from "./sections/Skills";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
+import React from "react";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const projectRef = React.useRef<HTMLDivElement>(null);
+  const contactRef = React.useRef<HTMLDivElement>(null);
+
+  const scrollToTarget = (location: string) => {
+    let target;
+    if (location === "project") {
+      target = projectRef.current;
+    } else {
+      target = contactRef.current;
+    }
+
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div className="flex flex-col font-Raleway">
+      <Header scrollToTarget={scrollToTarget} />
+      <Landing scrollToTarget={scrollToTarget} />
+      <About />
+      <Projects projectRef={projectRef} />
+      <OtherProjects />
+      <Skills />
+      <Contact contactRef={contactRef} />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
