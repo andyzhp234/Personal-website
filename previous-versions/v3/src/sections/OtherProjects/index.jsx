@@ -14,8 +14,8 @@ export default function OtherProjects() {
         />
         <OtherProjectItem
           title={"QR-Code Generator"}
-          githubURL="https://github.com/andyzhp234/qr-code-generator"
-          demoURL="https://andyzhp234.github.io/qr-code-generator"
+          githubURL="https://github.com/andyzhp234/QR-Code-generator"
+          demoURL="qr-code-generator-tool.netlify.app"
         />
       </div>
     </div>

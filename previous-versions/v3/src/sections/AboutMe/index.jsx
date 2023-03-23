@@ -4,7 +4,7 @@ import Title from "../../components/Title";
 
 export default function AboutMe() {
   return (
-    <div className="px-6 py-10 md:px-10 lg:py-20 xl:px-52">
+    <div className="px-6 py-10 md:px-10 lg:py-96 xl:px-52">
       <Title>About Me</Title>
       <div className="flex w-full flex-col px-2 md:flex-row lg:px-10">
         <div className="flex w-full items-center lg:w-1/2">

@@ -12,8 +12,8 @@ export default function LandingNav() {
         data-aos-duration="1200"
       >
         <div
-          className="mr-3 cursor-pointer rounded-full bg-black px-5 py-3 font-semibold text-white duration-100 ease-in-out
-          hover:translate-y-1 lg:mr-16 lg:px-8 lg:py-4"
+          className="mr-3 cursor-pointer rounded-full bg-black px-4 py-2 font-semibold text-white duration-100 ease-in-out
+          hover:translate-y-1 lg:mr-16 lg:px-8 lg:py-3"
         >
           Hire Me
         </div>
@@ -31,14 +31,14 @@ export default function LandingNav() {
       <div className="flex" data-aos="fade-up" data-aos-duration="1200">
         <a href="https://github.com/andyzhp234">
           <img
-            className="mr-2 h-12 w-12 cursor-pointer duration-100 ease-in-out hover:translate-y-1 md:mr-5"
+            className="mr-2 h-10 w-10 cursor-pointer duration-100 ease-in-out hover:translate-y-1 sm:h-12 sm:w-12 md:mr-5"
             src={IconGithub}
             alt="github"
           />
         </a>
         <a href="https://www.linkedin.com/in/haopengzeng">
           <img
-            className="h-12 w-12 cursor-pointer duration-100 ease-in-out hover:translate-y-1"
+            className="h-10 w-10 cursor-pointer duration-100 ease-in-out hover:translate-y-1 sm:h-12 sm:w-12"
             src={IconLinkedIn}
             alt="linkedin"
           />
