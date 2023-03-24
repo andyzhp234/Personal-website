@@ -1,5 +1,7 @@
+import React from "react";
 import IconTopRightArrow from "../../assets/icon-general/icon-top-right-arrow-black.png";
 import IconGithub from "../../assets/icon-general/icon-github.png";
+import { fadeUpObserver } from "../../utils/scrollAnimation";
 
 type OtherProjectItemProps = {
   title: string;
@@ -12,11 +14,16 @@ export default function OtherProjectItem({
   demoURL,
   githubURL,
 }: OtherProjectItemProps) {
+  const otherProjectRef = React.useRef<any>(null);
+
+  React.useEffect(() => {
+    fadeUpObserver.observe(otherProjectRef.current);
+  }, []);
+
   return (
     <div
-      className="flex h-20 w-full items-center justify-between border-b border-black text-2xl font-medium"
-      data-aos="fade-up"
-      data-aos-duration="300"
+      className="fade-up-hidden flex h-20 w-full items-center justify-between border-b border-black text-2xl font-medium"
+      ref={otherProjectRef}
     >
       <a className="flex cursor-pointer hover:underline" href={demoURL}>
         <h1>{title}</h1>

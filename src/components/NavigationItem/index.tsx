@@ -16,7 +16,7 @@ export default function NavigationItem({
     return (
       <a
         href={Resume}
-        className="ml-10 cursor-pointer text-xl font-medium transition duration-150 ease-in-out hover:translate-y-1"
+        className="ml-5 cursor-pointer text-xs font-medium transition duration-150 ease-in-out hover:translate-y-1 sm:text-sm md:text-base xl:ml-10 xl:text-xl"
         onClick={onClick}
         download="Haopeng_Zeng_Resume"
       >
@@ -26,7 +26,7 @@ export default function NavigationItem({
   } else {
     return (
       <div
-        className="ml-10 cursor-pointer text-xl font-medium transition duration-150 ease-in-out hover:translate-y-1"
+        className="ml-5 cursor-pointer text-xs font-medium transition duration-150 ease-in-out hover:translate-y-1 sm:text-sm md:text-base xl:ml-10 xl:text-xl"
         onClick={onClick}
       >
         {children}

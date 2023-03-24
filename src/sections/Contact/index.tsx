@@ -1,44 +1,23 @@
 import React from "react";
 import SocialNavItem from "../../components/SocialNavItem";
 import Resume from "../../assets/Resume.pdf";
+import {
+  backgroundColorObserver,
+  fadeUpObserver,
+} from "../../utils/scrollAnimation";
 
 export default function Contact({ contactRef }: { contactRef: any }) {
-  const [isTargetVisible, setIsTargetVisible] = React.useState(false);
-  const [textColor, setTextColor] = React.useState("text-black");
+  const textRef = React.useRef<HTMLDivElement>(null);
   React.useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          setIsTargetVisible(entry.isIntersecting);
-        });
-      },
-      { threshold: 0.5 }
-    );
-
-    if (contactRef.current) {
-      observer.observe(contactRef.current);
-    }
-
-    return () => {
-      if (contactRef.current) {
-        observer.unobserve(contactRef.current);
-      }
-    };
+    backgroundColorObserver.observe(contactRef.current);
+    fadeUpObserver.observe(textRef.current!);
   }, []);
-
-  React.useEffect(() => {
-    if (isTargetVisible) {
-      setTextColor("text-white");
-      document.body.style.backgroundColor = "black"; // change background color
-    } else {
-      setTextColor("text-black");
-      document.body.style.backgroundColor = "#fbfcf8"; // reset background color
-    }
-  }, [isTargetVisible]);
 
   return (
     <div
-      className={`${textColor} flex flex-col px-6 pb-16 md:px-10 lg:flex-row lg:px-20 lg:pb-40 xl:pb-96`}
+      id="contact"
+      ref={textRef}
+      className={`fade-up-hidden flex flex-col px-6 pb-16 md:px-10 lg:flex-row lg:px-20 lg:pb-40 xl:pb-96`}
     >
       <div className="my-28 text-4xl md:mr-20 md:text-5xl md:font-medium lg:mt-0 lg:w-1/2 xl:text-7xl">
         I'M OPEN TO WORK.

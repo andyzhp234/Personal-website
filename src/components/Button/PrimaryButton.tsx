@@ -9,7 +9,7 @@ type ButtonProps = {
 
 const typeTable = {
   primary:
-    "border py-3 px-7 w-fit font-medium rounded-full border-black hover:bg-black hover:text-white font-semibold",
+    "border py-2 px-5 xl:py-3 xl:px-7 w-fit font-medium rounded-full border-black hover:bg-black hover:text-white font-semibold",
   secondary:
     "py-3 px-7 w-fit font-medium rounded-full bg-black hover:translate-y-2 text-white border border-black font-semibold",
 };
@@ -17,7 +17,7 @@ const typeTable = {
 const sizeTable = {
   sm: "text-sm",
   md: "text-base",
-  lg: "text-lg",
+  lg: "text-sm lg:text-lg",
 };
 
 export default function PrimaryButton({

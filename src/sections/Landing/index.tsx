@@ -12,7 +12,7 @@ export default function Landing({ scrollToTarget }: LandingProps) {
   return (
     <SectionContainer>
       <SelfIntro />
-      <div className="mt-10 flex items-center">
+      <div className="unreveal mt-10 flex items-center">
         <PrimaryButton
           onClick={() => scrollToTarget("contact")}
           type="secondary"

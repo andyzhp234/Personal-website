@@ -1,5 +1,6 @@
+import React from "react";
 import IconGithub from "../../assets/icon-general/icon-github.png";
-
+import { fadeUpObserver } from "../../utils/scrollAnimation";
 type ProjectProps = {
   title: string;
   type: string;
@@ -17,10 +18,19 @@ export default function Project({
   demoURL,
   projectImg,
 }: ProjectProps) {
+  const projectRef = React.useRef<any>(null);
+
+  React.useEffect(() => {
+    fadeUpObserver.observe(projectRef.current);
+  }, []);
+
   return (
-    <div className="mb-24 flex flex-col items-center xl:flex-row xl:items-center xl:justify-center">
+    <div
+      className="fade-up-hidden mb-24 flex flex-col items-center xl:flex-row xl:items-center xl:justify-center"
+      ref={projectRef}
+    >
       <div className="flex w-20rem shadow-xl sm:w-35rem md:w-38rem lg:w-40rem xl:w-38rem">
-        <img src={projectImg} alt="" />
+        <img src={projectImg} alt="project-img" />
       </div>
       <div className="w-20rem sm:w-35rem md:w-38rem lg:w-40rem xl:ml-20 xl:w-38rem xl:self-start">
         <h1 className="mt-4 text-2xl font-semibold md:text-3xl xl:text-4xl">

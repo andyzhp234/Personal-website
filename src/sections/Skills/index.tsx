@@ -17,6 +17,8 @@ import IconMongodb from "../../assets/icon-skills/icon-mongodb.png";
 import IconMaterialui from "../../assets/icon-skills/icon-materialui.png";
 import IconTailwindcss from "../../assets/icon-skills/icon-tailwindcss.png";
 import IconGit from "../../assets/icon-skills/icon-git.png";
+import IconAWS from "../../assets/icon-skills/icon-aws.png";
+import IconJQuery from "../../assets/icon-skills/icon-jquery.png";
 import SectionContainer from "../../components/SectionContainer";
 import SectionTitle from "../../components/SectionTitle";
 
@@ -35,12 +37,14 @@ export default function Skills() {
         <Icon imgSrc={IconTailwindcss} text="Tailwind CSS" />
         <Icon imgSrc={IconMaterialui} text="Material UI" />
         <Icon imgSrc={IconSass} text="Sass" />
+        <Icon imgSrc={IconJQuery} text="JQuery" />
         <Icon imgSrc={IconJest} text="Jest" />
         <Icon imgSrc={IconNode} text="Node.js" />
         <Icon imgSrc={IconDjango} text="Django" />
         <Icon imgSrc={IconRedis} text="Redis" />
         <Icon imgSrc={IconPostgresql} text="PostgreSQL" />
         <Icon imgSrc={IconMongodb} text="MongoDB" />
+        <Icon imgSrc={IconAWS} text="AWS" />
         <Icon imgSrc={IconGit} text="Git" />
       </div>
     </SectionContainer>
