@@ -1,6 +1,7 @@
 import React from "react";
 import SocialNavItem from "../../components/SocialNavItem";
-import Resume from "../../assets/Resume.pdf";
+import Resume from "../../assets/resume.pdf";
+
 import {
   backgroundColorObserver,
   fadeUpObserver,
