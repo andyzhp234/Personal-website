@@ -16,12 +16,12 @@ export default function OtherProjects() {
         <OtherProjectItem
           title="Asteroid Dodge"
           githubURL="https://github.com/andyzhp234/Asteroid-dodge"
-          demoURL="https://asteroid-dodge.netlify.app/"
+          demoURL="https://asteroid-dodge.netlify.app"
         />
         <OtherProjectItem
           title={"QR-Code Generator"}
           githubURL="https://github.com/andyzhp234/QR-Code-generator"
-          demoURL="qr-code-generator-tool.netlify.app"
+          demoURL="https://qr-code-generator-tool.netlify.app"
         />
       </div>
     </SectionContainer>
