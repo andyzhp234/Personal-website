@@ -14,7 +14,7 @@ export default function Projects({ projectRef }: { projectRef: any }) {
           <Project
             title="Stable"
             type="eCommerce"
-            description="The online eCommerce platform for furniture has been built using the MERN stack and integrates with Stripe as a payment gateway. It has separate user and admin dashboards, with admin access required to manage orders, users, and products, as well as perform maintenance tasks. Normal users can use the platform to purchase furniture easily via Stripe."
+            description="A full stack online eCommerce website for furniture using the MERN stack with Stripe integration. The frontend was developed using React and Redux, and styled with Sass. The backend was built using Node.js and Express.js, with AWS S3 and AWS CloudFront CDN for static content storage and delivery. The database used was MongoDB. Both user and admin roles are implemented. Admin users are granted access to a specialized dashboard designed to facilitate efficient management and maintenance of the webstore."
             projectImg={ImgStableStore}
             demoURL="https://www.stable-store.com/"
             githubURL="https://github.com/andyzhp234/stable-e-commerce-web"
@@ -22,7 +22,7 @@ export default function Projects({ projectRef }: { projectRef: any }) {
           <Project
             title="Quick Chat"
             type="Realtime Communication"
-            description="A web-based real time chat application that allows users to communicate in real-time using text messaging and video chatting. The website was built using Node.js and Socket.io for real-time messaging and WebRTC for video chatting."
+            description="Quickchat is a full stack chat application that allows users to communicate through both text and video chat in real-time. With Quickchat, users can easily create accounts, find and add friends, and start conversations with individuals or groups. The frontend is built using React, while the backend is built using Express and Node.js. Socket.io and WebRTC are used to establish real-time text and video communications."
             projectImg={ImgQuickChat}
             demoURL="https://quick-chat.app/"
             githubURL="https://github.com/andyzhp234/QuickChat"
