@@ -1,6 +1,6 @@
 import React from "react";
 import SocialNavItem from "../../components/SocialNavItem";
-import Resume from "../../assets/resume.pdf";
+import Resume from "../../assets/Resume_Haopeng_Zeng.pdf";
 
 import {
   backgroundColorObserver,

@@ -1,6 +1,6 @@
 import React from "react";
 import ContactSocialItem from "./ContactSocialItem";
-import Resume from "../../assets/resume.pdf";
+import Resume from "../../assets/Resume_Haopeng_Zeng.pdf";
 
 export default function Contact() {
   return (
