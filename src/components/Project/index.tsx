@@ -36,8 +36,8 @@ export default function Project({
         <h1 className="mt-4 text-2xl font-semibold md:text-3xl xl:text-4xl">
           {title}
         </h1>
-        <h2 className="text-base sm:text-xl">Full Stack - {type}</h2>
-        <h2 className="mt-4 text-sm md:text-base lg:text-xl xl:text-xl">
+        <h2 className="text-base sm:text-xl">{type}</h2>
+        <h2 className="font-Inter font-light mt-4 text-sm md:text-base lg:text-xl xl:text-xl">
           {description}
         </h2>
         <div className="mt-5 flex items-center">
@@ -48,9 +48,13 @@ export default function Project({
               alt="github"
             />
           </a>
-          <a className="cursor-pointer hover:underline" href={demoURL}>
-            Visit Website
-          </a>
+          {demoURL === "none" ? 
+            <a></a>
+            :
+            <a className="cursor-pointer hover:underline" href={demoURL}>
+              Visit Website
+            </a>
+          }
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ function backgroundColorIntersect(entries: any, observer: any) {
       document.body.style.color = "white";
     } else {
       document.body.style.color = "black";
-      document.body.style.backgroundColor = "#fbfcf8";
+      document.body.style.backgroundColor = "white";
     }
   });
 }

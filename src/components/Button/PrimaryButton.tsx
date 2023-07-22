@@ -1,7 +1,7 @@
 import React from "react";
 
 type ButtonProps = {
-  type?: "primary" | "secondary";
+  type?: "primary" | "secondary" | "tertiary";
   size?: "sm" | "md" | "lg";
   onClick?: () => void;
   children: React.ReactNode;
@@ -12,6 +12,8 @@ const typeTable = {
     "border py-2 px-5 xl:py-3 xl:px-7 w-fit font-medium rounded-full border-black hover:bg-black hover:text-white font-semibold",
   secondary:
     "py-3 px-7 w-fit font-medium rounded-full bg-black hover:translate-y-2 text-white border border-black font-semibold",
+  tertiary:
+    "py-2 px-5 w-fit font-medium rounded-full bg-black hover:translate-y-2 text-white border border-black font-semibold xl:py-3 xl:px-7",
 };
 
 const sizeTable = {

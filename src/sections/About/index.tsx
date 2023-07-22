@@ -14,13 +14,13 @@ export default function About() {
     <SectionContainer>
       <SectionTitle>About Me</SectionTitle>
       <div
-        className="fade-up-hidden flex w-full flex-col items-center lg:flex-row"
+        className="fade-up-hidden flex w-full flex-col items-center xl:flex-row"
         ref={textRef}
       >
-        <div className="flex w-full justify-center lg:w-1/2">
+        <div className="flex w-full justify-center xl:w-1/2">
           <img className=" w-96 rounded-xl" src={SelfImage} alt="self-image" />
         </div>
-        <div className="sm:2xl mt-10 w-full text-center text-xl md:text-3xl lg:mt-0 lg:w-1/2 lg:text-left xl:text-5xl">
+        <div className="sm:2xl mt-10 w-full text-center text-xl md:text-3xl xl:mt-0 xl:w-1/2 xl:text-left xl:text-4xl 2xl:text-5xl">
           My expertise is developing intuitive and scalable software
           architectures that prioritize both functionality and user experience.
         </div>

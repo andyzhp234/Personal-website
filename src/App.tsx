@@ -1,7 +1,8 @@
 import Header from "./sections/Header";
 import Landing from "./sections/Landing";
 import About from "./sections/About";
-import Projects from "./sections/Projects";
+import SoftwareProjects from "./sections/SoftwareProjects";
+import HardwareProjects from "./sections/HardwareProjects";
 import OtherProjects from "./sections/OtherProjects";
 import Skills from "./sections/Skills";
 import Contact from "./sections/Contact";
@@ -26,11 +27,12 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col font-Raleway">
+    <div className="flex flex-col font-Raleway px-5 sm:px-10 md:px-20 lg:px-40 xl:px-48 2xl:px-80">
       <Header scrollToTarget={scrollToTarget} />
       <Landing scrollToTarget={scrollToTarget} />
       <About />
-      <Projects projectRef={projectRef} />
+      <HardwareProjects projectRef={projectRef} />
+      <SoftwareProjects />
       <OtherProjects />
       <Skills />
       <Contact contactRef={contactRef} />

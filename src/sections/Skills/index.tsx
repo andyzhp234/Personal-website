@@ -21,12 +21,16 @@ import IconAWS from "../../assets/icon-skills/icon-aws.png";
 import IconJQuery from "../../assets/icon-skills/icon-jquery.png";
 import SectionContainer from "../../components/SectionContainer";
 import SectionTitle from "../../components/SectionTitle";
+import IconCPP from "../../assets/icon-skills/icon-cpp.png";
+import IconC from "../../assets/icon-skills/icon-c.png";
 
 export default function Skills() {
   return (
     <SectionContainer>
       <SectionTitle>Skills</SectionTitle>
       <div className="flex flex-wrap justify-center px-2 lg:px-10">
+        <Icon imgSrc={IconCPP} text="C++" />
+        <Icon imgSrc={IconC} text="C" />
         <Icon imgSrc={IconJavascript} text="Javascript" />
         <Icon imgSrc={IconTypescript} text="Typescript" />
         <Icon imgSrc={IconPython} text="Python" />

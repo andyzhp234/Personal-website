@@ -22,7 +22,7 @@ export default function OtherProjectItem({
 
   return (
     <div
-      className="fade-up-hidden flex h-20 w-full items-center justify-between border-b border-black text-2xl font-medium"
+      className="fade-up-hidden flex h-16 lg:h-20 w-full items-center justify-between border-b border-black text-lg lg:text-2xl font-medium"
       ref={otherProjectRef}
     >
       <a className="flex cursor-pointer hover:underline" href={demoURL}>

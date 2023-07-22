@@ -18,7 +18,7 @@ export default function Contact({ contactRef }: { contactRef: any }) {
     <div
       id="contact"
       ref={textRef}
-      className={`fade-up-hidden flex flex-col px-6 pb-16 md:px-10 lg:flex-row lg:px-20 lg:pb-40 xl:pb-96`}
+      className={`fade-up-hidden flex flex-col px-6 pb-16 md:px-10 lg:flex-row lg:px-20 lg:pb-40 xl:pb-80`}
     >
       <div className="my-28 text-4xl md:mr-20 md:text-5xl md:font-medium lg:mt-0 lg:w-1/2 xl:text-7xl">
         I'M OPEN TO WORK.

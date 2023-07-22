@@ -14,11 +14,11 @@ export default function Icon({ imgSrc, text }: IconProp) {
 
   return (
     <div
-      className="fade-up-hidden my-2 mx-4 flex h-14 w-16 flex-col lg:m-3 lg:h-32 lg:w-36"
+      className="fade-up-hidden my-3 mx-4 flex h-13 w-16 flex-col lg:m-3 lg:h-30 lg:w-32"
       ref={iconRef}
     >
       <img
-        className="h-10 w-10 self-center lg:h-20 lg:w-20"
+        className="h-10 w-10 self-center lg:h-20 lg:w-20 mb-2"
         src={imgSrc}
         alt="skills-icon"
       />
