@@ -1,7 +1,7 @@
 import SectionContainer from "../../components/SectionContainer";
 import SectionTitle from "../../components/SectionTitle";
 import Project from "../../components/Project";
-import ImgBreadboardComputer from "../../assets/images/img-8-bit-computer.jpg";
+import ImgBreadboardComputer from "../../assets/images/img-8-bit-computer-1.jpg";
 
 
 export default function HardwareProjects({ projectRef }: { projectRef: any }) {
