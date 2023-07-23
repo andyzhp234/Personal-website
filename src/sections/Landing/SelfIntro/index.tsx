@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SelfIntro() {
   return (
-    <div className="ml-2 relative mt-32 font-Playfair text-3xl font-medium sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
+    <div className="ml-2 relative mt-32 font-Inter text-3xl font-medium sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
       <h1 className="unreveal pb-3">
         <span>Hi,</span>
       </h1>

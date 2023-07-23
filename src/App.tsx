@@ -26,6 +26,7 @@ function App() {
     }
   };
 
+
   return (
     <div className="flex flex-col font-Raleway px-5 sm:px-10 md:px-20 lg:px-40 xl:px-48 2xl:px-80">
       <Header scrollToTarget={scrollToTarget} />

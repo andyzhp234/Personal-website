@@ -22,7 +22,8 @@ export default function About() {
         </div>
         <div className="sm:2xl mt-10 w-full text-center text-xl md:text-3xl xl:mt-0 xl:w-1/2 xl:text-left xl:text-4xl 2xl:text-5xl">
           My expertise is developing intuitive and scalable software
-          architectures that prioritize both functionality and user experience.
+          architectures that prioritize both <span>functionality</span> and{" "}
+          <span>user experience.</span>
         </div>
       </div>
     </SectionContainer>

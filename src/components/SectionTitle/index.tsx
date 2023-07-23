@@ -15,7 +15,7 @@ export default function SectionTitle({ children }: SectionTitleProps) {
   return (
     <h1
       ref={titleRef}
-      className="fade-up-hidden mb-5 text-3xl font-semibold md:mb-10 md:text-4xl lg:text-5xl xl:mb-20 xl:text-5xl"
+      className="fade-up-hidden	mb-5 flex justify-center font-Inter text-3xl font-semibold md:mb-10 md:text-4xl lg:text-5xl xl:mb-20 xl:text-5xl"
     >
       {children}
     </h1>

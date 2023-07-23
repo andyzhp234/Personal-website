@@ -8,7 +8,7 @@ export default function HardwareProjects({ projectRef }: { projectRef: any }) {
   return (
     <div ref={projectRef}>
       <SectionContainer>
-        <SectionTitle>Embedded & Hardware Projects:</SectionTitle>
+        <SectionTitle>Hardware Projects</SectionTitle>
         <div className="flex flex-col justify-center">
           <Project
             title="8-bit Breadboard Computer"

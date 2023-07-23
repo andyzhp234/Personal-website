@@ -10,7 +10,7 @@ export default function SectionContainer({
   className = "",
 }: SectionContainerProps) {
   return (
-    <div className={`${className} mb-20 md:mb-44`}>
+    <div className={`${className} mt-10 mb-10 md:mt-24 md:mb-24 `}>
       {children}
     </div>
   );
