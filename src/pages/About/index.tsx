@@ -3,6 +3,7 @@ import SectionContainer from "../../components/SectionContainer";
 import SectionTitle from "../../components/SectionTitle";
 import SelfImage from "../../assets/images/me1.jpg";
 import { fadeUpObserver } from "../../utils/scrollAnimation";
+import Skills from "./Skills";
 
 export default function About() {
   const textRef = React.useRef<any>(null);
@@ -18,14 +19,23 @@ export default function About() {
         ref={textRef}
       >
         <div className="flex w-full justify-center xl:w-1/2">
-          <img className=" w-96 rounded-xl" src={SelfImage} alt="self-image" />
+          <img
+            className=" w-60 rounded-xl lg:w-80"
+            src={SelfImage}
+            alt="self-image"
+          />
         </div>
-        <div className="sm:2xl mt-10 w-full text-center text-xl md:text-3xl xl:mt-0 xl:w-1/2 xl:text-left xl:text-4xl 2xl:text-5xl">
-          My expertise is developing intuitive and scalable software
-          architectures that prioritize both <span>functionality</span> and{" "}
-          <span>user experience.</span>
+        <div className="mt-10 w-full text-center text-sm text-lg md:text-xl xl:mt-0 xl:w-1/2 xl:text-left xl:text-xl 2xl:text-2xl">
+          Hello! I’m Haopeng, currently pursuing a Master’s degree in Computer
+          Engineering at the University of Southern California (USC). I'm
+          transitioning from a background in software engineering to specialize
+          in hardware, specifically in Embedded Systems, ASIC/VLSI Design, and
+          Verification. I'm looking for opportunities in these areas to apply
+          what I've learned and contribute to real-world projects. Let's connect
+          if you're interested.
         </div>
       </div>
+      <Skills />
     </SectionContainer>
   );
 }
