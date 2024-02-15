@@ -17,7 +17,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col px-5 font-Raleway sm:px-10 md:px-10 lg:px-32 xl:px-40 2xl:px-80">
+    <div className="flex flex-col px-5 font-Raleway sm:px-10 md:px-10 lg:px-32 xl:px-32 2xl:px-80">
       <BrowserRouter>
         <Header scrollToTarget={scrollToTarget} />
         <Routes>
