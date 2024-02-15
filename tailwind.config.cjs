@@ -3,6 +3,7 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      animation: {},
       spacing: {
         "10rem": "10rem",
         "15rem": "15rem",

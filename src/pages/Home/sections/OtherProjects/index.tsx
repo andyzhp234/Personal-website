@@ -1,7 +1,7 @@
 import React from "react";
-import SectionContainer from "../../components/SectionContainer";
-import SectionTitle from "../../components/SectionTitle";
-import OtherProjectItem from "../../components/OtherProjectItem";
+import SectionContainer from "../../../../components/SectionContainer";
+import SectionTitle from "../../../../components/SectionTitle";
+import OtherProjectItem from "../../../../components/OtherProjectItem";
 
 export default function OtherProjects() {
   return (

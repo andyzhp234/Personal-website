@@ -1,12 +1,11 @@
-import SectionContainer from "../../components/SectionContainer";
-import SectionTitle from "../../components/SectionTitle";
-import Project from "../../components/Project";
-import ImgBreadboardComputer from "../../assets/images/img-8-bit-computer-1.jpg";
+import SectionContainer from "../../../../components/SectionContainer";
+import SectionTitle from "../../../../components/SectionTitle";
+import Project from "../../../../components/Project";
+import ImgBreadboardComputer from "../../../../assets/images/img-8-bit-computer-1.jpg";
 
-
-export default function HardwareProjects({ projectRef }: { projectRef: any }) {
+export default function HardwareProjects() {
   return (
-    <div ref={projectRef}>
+    <div>
       <SectionContainer>
         <SectionTitle>Hardware Projects</SectionTitle>
         <div className="flex flex-col justify-center">

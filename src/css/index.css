@@ -109,3 +109,39 @@ body {
     opacity: 1;
   }
 }
+
+.hover-target {
+  position: relative;
+}
+
+.hover-target::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0; /* Align to the bottom or top as needed */
+  width: 0;
+  height: 2px; /* Border thickness */
+  background: black; /* Border color */
+  transition: width 0.3s ease-in-out;
+}
+
+.hover-target:hover::before {
+  width: 100%;
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.arrow {
+  display: inline-block;
+  animation: breathe 2s ease-in-out infinite;
+  color: #000; /* Change color as needed */
+  font-size: 24px; /* Adjust size as needed */
+}

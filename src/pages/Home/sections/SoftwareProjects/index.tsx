@@ -1,9 +1,9 @@
-import SectionContainer from "../../components/SectionContainer";
-import SectionTitle from "../../components/SectionTitle";
-import Project from "../../components/Project";
-import ImgStableStore from "../../assets/images/img-stable-store.jpg";
-import ImgQuickChat from "../../assets/images/img-quick-chat.jpg";
-import ImgTaskPilot from "../../assets/images/img-task-tracker.jpg";
+import SectionContainer from "../../../../components/SectionContainer";
+import SectionTitle from "../../../../components/SectionTitle";
+import Project from "../../../../components/Project";
+import ImgStableStore from "../../../../assets/images/img-stable-store.jpg";
+import ImgQuickChat from "../../../../assets/images/img-quick-chat.jpg";
+import ImgTaskPilot from "../../../../assets/images/img-task-tracker.jpg";
 
 export default function SoftwareProjects() {
   return (
