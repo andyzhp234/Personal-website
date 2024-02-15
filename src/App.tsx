@@ -26,9 +26,8 @@ function App() {
     }
   };
 
-
   return (
-    <div className="flex flex-col font-Raleway px-5 sm:px-10 md:px-20 lg:px-40 xl:px-48 2xl:px-80">
+    <div className="flex flex-col px-5 font-Raleway sm:px-10 md:px-10 lg:px-32 xl:px-40 2xl:px-80">
       <Header scrollToTarget={scrollToTarget} />
       <Landing scrollToTarget={scrollToTarget} />
       <About />
