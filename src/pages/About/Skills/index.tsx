@@ -57,12 +57,12 @@ export default function Skills() {
         <Icon imgSrc={IconAWS} text="AWS" />
         <Icon imgSrc={IconGit} text="Git" />
       </div> */}
-      <div className="fade-up-hidden flex-col px-40" ref={textRef}>
+      <div className="fade-up-hidden flex-col px-6 md:px-10 lg:px-20" ref={textRef}>
         <div>
-          <div className="pb-5 pt-0 text-[24px] font-bold lg:text-[26px]">
+          <div className="pb-5 pt-0 text-[16px] md:text-[20px] font-bold lg:text-[26px]">
             Programming Languages
           </div>
-          <div className="grid grid-cols-5 gap-1 text-[15px] lg:text-[20px]">
+          <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-1 text-[15px] lg:text-[20px]">
             <p>C/C++</p>
             <p>Javascript</p>
             <p>Typescript</p>
@@ -71,10 +71,10 @@ export default function Skills() {
         </div>
 
         <div>
-          <div className="pb-5 pt-10 text-[24px] font-bold lg:text-[26px]">
+          <div className="pb-5 pt-10 text-[16px] md:text-[20px] font-bold lg:text-[26px]">
             Embedded Systems and Hardware Design
           </div>
-          <div className="grid grid-cols-5 gap-1 text-[15px] lg:text-[20px]">
+          <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-1 text-[15px] lg:text-[20px]">
             <p>Verilog</p>
             <p>ModelSim</p>
             <p>QuestaSim</p>
@@ -85,10 +85,10 @@ export default function Skills() {
         </div>
 
         <div>
-          <div className="pb-5 pt-10 text-[24px] font-bold lg:text-[26px]">
+          <div className="pb-5 pt-10 text-[16px] md:text-[20px] font-bold lg:text-[26px]">
             Full-Stack Development
           </div>
-          <div className="grid grid-cols-5 gap-1 text-[15px] lg:text-[20px]">
+          <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-1 text-[15px] lg:text-[20px]">
             <p>React</p>
             <p>Redux</p>
             <p>HTML</p>
@@ -104,7 +104,6 @@ export default function Skills() {
             <p>PostgreSQL</p>
             <p>MongoDB</p>
             <p>AWS</p>
-            <p>Git</p>
           </div>
         </div>
       </div>

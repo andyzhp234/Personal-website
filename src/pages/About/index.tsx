@@ -25,7 +25,7 @@ export default function About() {
             alt="self-image"
           />
         </div>
-        <div className="mt-10 w-full text-center text-sm text-lg md:text-xl xl:mt-0 xl:w-1/2 xl:text-left xl:text-xl 2xl:text-2xl">
+        <p className="mt-10 w-full text-center text-sm md:text-xl xl:mt-0 xl:w-1/2 xl:text-left xl:text-xl 2xl:text-xl">
           Hello! I’m Haopeng, currently pursuing a Master’s degree in Computer
           Engineering at the University of Southern California (USC). I'm
           transitioning from a background in software engineering to specialize
@@ -33,7 +33,7 @@ export default function About() {
           Verification. I'm looking for opportunities in these areas to apply
           what I've learned and contribute to real-world projects. Let's connect
           if you're interested.
-        </div>
+        </p>
       </div>
       <Skills />
     </SectionContainer>

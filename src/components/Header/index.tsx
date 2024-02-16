@@ -16,7 +16,7 @@ export default function Header({ scrollToTarget }: { scrollToTarget: any }) {
         src={BrandIcon}
         alt="brand-icon"
       />
-      <div className="flex items-center justify-center gap-x-3 text-xs md:gap-x-7 md:text-base lg:gap-x-10 lg:text-xl">
+      <div className="flex items-center justify-center gap-x-3 text-xs md:gap-x-7 md:text-base lg:gap-x-8 lg:text-xl">
         <a
           href="/"
           className={`${
@@ -41,7 +41,7 @@ export default function Header({ scrollToTarget }: { scrollToTarget: any }) {
           Resume
         </a>
         <div
-          className="round cursor-pointer rounded-full border border-black bg-white px-3 py-1 text-black transition-colors duration-300 hover:bg-black hover:text-white lg:px-4"
+          className="round cursor-pointer rounded-full border border-black bg-white px-3 py-2 text-black transition-colors duration-300 hover:bg-black hover:text-white lg:px-4"
           onClick={() => scrollToTarget()}
         >
           Contact
